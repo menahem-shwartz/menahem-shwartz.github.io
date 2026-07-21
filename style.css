@@ -91,11 +91,11 @@ img {
 
 .hero {
   position: relative;
-  min-height: 86vh;
+  min-height: 74vh;
   display: flex;
   align-items: end;
   overflow: hidden;
-  padding: 120px 0 64px;
+  padding: 112px 0 54px;
   color: white;
 }
 
@@ -146,8 +146,8 @@ p {
 }
 
 h1 {
-  margin-bottom: 24px;
-  font-size: clamp(3.2rem, 9vw, 7.8rem);
+  margin-bottom: 20px;
+  font-size: clamp(2.8rem, 7vw, 6.2rem);
   font-weight: 850;
   line-height: 0.94;
 }
@@ -170,7 +170,7 @@ h3 {
   max-width: 680px;
   margin-bottom: 18px;
   color: rgba(255, 255, 255, 0.92);
-  font-size: clamp(1.28rem, 2.5vw, 2rem);
+  font-size: clamp(1.2rem, 2.2vw, 1.72rem);
   font-weight: 700;
   line-height: 1.25;
 }
@@ -635,7 +635,7 @@ h3 {
 
   .hero {
     min-height: auto;
-    padding: 120px 0 46px;
+    padding: 104px 0 42px;
   }
 
   .hero-content,

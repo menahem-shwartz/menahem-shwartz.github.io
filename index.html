@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Menahem Shwartz - Cloud Automation Engineer focused on TypeScript, Playwright, CI/CD, cloud automation, and product quality."
+      content="Menahem Shwartz - QA Automation Engineer focused on Playwright, TypeScript, REST API testing, CI/CD quality gates, and revenue-critical product flows."
     />
-    <title>Menahem Shwartz | Cloud Automation Engineer</title>
+    <title>Menahem Shwartz | QA Automation Engineer</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="style.css?v=5" />
+    <link rel="stylesheet" href="style.css?v=7" />
   </head>
   <body>
     <header class="site-header">
@@ -28,10 +28,10 @@
           <span></span>
         </button>
         <ul class="nav-links" id="navLinks">
-          <li><a href="#about">About</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#skills">Skills</a></li>
+          <li><a href="#impact">Impact</a></li>
           <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -49,20 +49,24 @@
         <div class="hero-overlay"></div>
         <div class="hero-content container">
           <div class="hero-copy">
-            <p class="eyebrow">Cloud Automation Engineer - Israel</p>
+            <p class="eyebrow">QA Automation Engineer - Israel</p>
             <h1>Menahem Shwartz</h1>
             <p class="hero-title">
-              QA automation for cloud products, billing flows, CI, and
-              end-to-end product journeys.
+              Revenue-critical billing flows, Playwright/TypeScript
+              frameworks, REST API testing, and CI/CD quality gates.
             </p>
             <p class="hero-intro">
-              I bring 4 years at Redis and earlier IDF experience building
-              automation infrastructure, manual and automated coverage, and
-              practical failure evidence that helps teams ship with confidence.
+              I protect product revenue flows by building API and E2E
+              automation, release gates, and debugging workflows that turn
+              failure evidence into safer releases.
             </p>
             <div class="hero-actions">
-              <a class="btn btn-primary" href="mailto:menahemshvartz@gmail.com">
-                Email me
+              <a
+                class="btn btn-primary"
+                href="assets/menahem-shwartz-cv.pdf"
+                download
+              >
+                Download CV
               </a>
               <a
                 class="btn btn-outline"
@@ -72,15 +76,7 @@
               >
                 LinkedIn
               </a>
-              <a
-                class="btn btn-outline"
-                href="https://github.com/menahemshwartz"
-                target="_blank"
-                rel="noopener"
-              >
-                GitHub
-              </a>
-              <a class="btn btn-outline" href="#experience">Experience</a>
+              <a class="btn btn-outline" href="#impact">Impact</a>
             </div>
           </div>
           <div class="stat-list" aria-label="Profile highlights">
@@ -93,113 +89,105 @@
               <span>Years at Redis</span>
             </article>
             <article>
-              <strong>IDF</strong>
-              <span>QA Engineer background</span>
+              <strong>CI/CD</strong>
+              <span>Quality gates and flaky-test stabilization</span>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section" id="about">
+      <section class="section dark-section" id="impact">
         <div class="container split">
           <div>
-            <p class="section-label">Background</p>
-            <h2>About</h2>
-          </div>
-          <div class="about-copy">
-            <p>
-              My background combines automation development, manual testing,
-              test planning, CI feedback, and product investigation. At Redis I
-              work on cloud product quality across billing, subscriptions,
-              databases, and service-management flows. Before Redis, I served in
-              the IDF as a QA Engineer in the Shachar Unit under Lotem, where I
-              helped build the unit's first automation testing infrastructure.
-            </p>
-            <div class="mini-grid">
-              <article>High-signal E2E coverage</article>
-              <article>Readable failure evidence</article>
-              <article>Strong team communication</article>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section-lined" id="work">
-        <div class="container split">
-          <div>
-            <p class="section-label">What I do</p>
-            <h2>QA automation that makes releases calmer.</h2>
-          </div>
-          <div class="card-grid">
-            <article class="feature-card">
-              <span></span>
-              <p>Playwright test architecture for complex product flows</p>
-            </article>
-            <article class="feature-card">
-              <span></span>
-              <p>Python, Selenium, and TypeScript automation</p>
-            </article>
-            <article class="feature-card">
-              <span></span>
-              <p>Cloud service validation for billing and subscriptions</p>
-            </article>
-            <article class="feature-card">
-              <span></span>
-              <p>Manual and automated testing across environments</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section dark-section">
-        <div class="container split">
-          <div>
-            <p class="section-label">Selected projects</p>
-            <h2>Practical quality work, close to the product.</h2>
+            <p class="section-label">Impact highlights</p>
+            <h2>Automation work tied to release safety and product revenue.</h2>
           </div>
           <div class="project-list">
             <article class="project-card">
               <div>
-                <h3>Subscription Flow Coverage</h3>
+                <h3>Billing-Platform Migration</h3>
                 <p>
-                  Automation for create, update, and billing paths where UI
-                  state, plan configuration, and backend effects all need to
-                  line up.
+                  Designed the E2E automation strategy for a critical billing
+                  migration, added new API capabilities, closed coverage gaps,
+                  and supported delivery with zero revenue-impacting bugs.
                 </p>
               </div>
               <div class="tags">
                 <span>Playwright</span>
-                <span>TypeScript</span>
+                <span>REST API</span>
                 <span>Billing</span>
               </div>
             </article>
             <article class="project-card">
               <div>
-                <h3>CI Failure Investigation</h3>
+                <h3>Critical-Path CI Stability</h3>
                 <p>
-                  Debugging workflows that combine test traces, logs, deploy
-                  context, and focused reruns to separate product bugs from
-                  test noise.
+                  Built a GitHub Actions workflow that automatically reruns
+                  failed critical-path tests, reducing manual intervention and
+                  false-negative CI noise.
                 </p>
               </div>
               <div class="tags">
-                <span>CI</span>
-                <span>Traces</span>
-                <span>Nx</span>
+                <span>GitHub Actions</span>
+                <span>CI/CD</span>
+                <span>Flaky tests</span>
               </div>
             </article>
             <article class="project-card">
               <div>
-                <h3>Cloud Product Quality</h3>
+                <h3>Microservice Quality Gates</h3>
                 <p>
-                  Validation patterns for multi-cloud product behavior, keeping
-                  high-signal coverage close to the real customer experience.
+                  Added critical E2E coverage for a new billing microservice,
+                  creating a reusable CI/CD quality-gate model for additional
+                  services.
                 </p>
               </div>
               <div class="tags">
-                <span>AWS</span>
-                <span>GCP</span>
+                <span>Microservices</span>
+                <span>E2E</span>
                 <span>Cloud</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-label">Experience</p>
+            <h2>A track record built around practical product quality.</h2>
+          </div>
+          <div class="timeline">
+            <article class="job-card">
+              <p class="period">Aug 2022 - Present</p>
+              <div>
+                <h3>QA Automation Engineer</h3>
+                <p class="company">Redis Cloud</p>
+                <p>
+                  Owns automation and quality coverage for Redis Cloud billing,
+                  subscriptions, databases, and service-management journeys.
+                  Builds Playwright and TypeScript frameworks for E2E and REST
+                  API coverage, stabilizes flaky tests, and investigates
+                  failures across logs, traces, deploy context, and CI
+                  artifacts.
+                </p>
+              </div>
+            </article>
+            <article class="job-card">
+              <p class="period">Nov 2019 - Jul 2022</p>
+              <div>
+                <h3>QA Automation Engineer</h3>
+                <p class="company">IDF - Shachar Unit, Lotem</p>
+                <p>
+                  Served as a QA Engineer for automation and manual testing in
+                  the Computer and Cyber Security Directorate. Led development
+                  of the unit's first end-to-end automation infrastructure using
+                  Python and Selenium, supported migration from legacy testing
+                  libraries, trained new developers, reviewed code, and worked
+                  with product managers on test specifications across multiple
+                  deployment environments.
+                </p>
               </div>
             </article>
           </div>
@@ -223,12 +211,12 @@
             <article class="skill-card">
               <p class="skill-kicker">Automation</p>
               <h3>Test frameworks</h3>
-              <p>Reliable UI, API, regression, and end-to-end coverage.</p>
+              <p>Maintainable UI, API, regression, and end-to-end coverage.</p>
               <ul>
                 <li>Playwright</li>
                 <li>Selenium</li>
-                <li>TestNG</li>
-                <li>Manual testing</li>
+                <li>Test framework architecture</li>
+                <li>Flaky test stabilization</li>
               </ul>
             </article>
             <article class="skill-card">
@@ -243,89 +231,64 @@
               </ul>
             </article>
             <article class="skill-card">
-              <p class="skill-kicker">CI & Tooling</p>
-              <h3>Release feedback</h3>
-              <p>Fast feedback loops for release and failure investigation.</p>
+              <p class="skill-kicker">API & Cloud</p>
+              <h3>Product systems</h3>
+              <p>Validation across APIs, services, and product data flows.</p>
               <ul>
-                <li>GitHub Actions</li>
-                <li>Git</li>
-                <li>Nx</li>
-                <li>pnpm</li>
+                <li>REST API testing</li>
+                <li>Postman</li>
+                <li>Cloud / microservices testing</li>
+                <li>Billing systems</li>
               </ul>
             </article>
             <article class="skill-card">
-              <p class="skill-kicker">QA Practice</p>
-              <h3>Product quality</h3>
-              <p>Clear test design and evidence for product decisions.</p>
+              <p class="skill-kicker">CI & Debugging</p>
+              <h3>Release intelligence</h3>
+              <p>Fast feedback loops for release and failure investigation.</p>
               <ul>
-                <li>Test design</li>
-                <li>Billing systems</li>
-                <li>API validation</li>
-                <li>Extent Reports</li>
+                <li>GitHub Actions / CI/CD</li>
+                <li>Observability/debugging</li>
+                <li>Root-cause analysis</li>
+                <li>AI-assisted QA</li>
               </ul>
             </article>
           </div>
           <div class="skills-footer">
             <span>Cloud automation</span>
             <span>Failure analysis</span>
+            <span>Git / code review</span>
+            <span>Nx / pnpm</span>
             <span>Hebrew</span>
             <span>English</span>
           </div>
         </div>
       </section>
 
-      <section class="section" id="experience">
-        <div class="container">
-          <div class="section-heading">
-            <p class="section-label">Experience</p>
-            <h2>A track record built around practical product quality.</h2>
+      <section class="section" id="about">
+        <div class="container split">
+          <div>
+            <p class="section-label">Background</p>
+            <h2>About</h2>
           </div>
-          <div class="timeline">
-            <article class="job-card">
-              <p class="period">Aug 2022 - Present</p>
-              <div>
-                <h3>QA Automation Engineer</h3>
-                <p class="company">Redis Cloud</p>
-                <p>
-                  Designs and maintains automated coverage for cloud
-                  subscription, billing, database, and service-management
-                  journeys. Works with Playwright, TypeScript, CI evidence, and
-                  production-like flows to catch real regressions and keep
-                  release feedback useful.
-                </p>
-              </div>
-            </article>
-            <article class="job-card">
-              <p class="period">Nov 2019 - Jul 2022</p>
-              <div>
-                <h3>QA Automation Engineer</h3>
-                <p class="company">IDF - Shachar Unit, Lotem</p>
-                <p>
-                  Served as a QA Engineer for automation and manual testing in
-                  the Computer and Cyber Security Directorate. Led development
-                  of the unit's first end-to-end automation infrastructure using
-                  Python and Selenium, supported migration from legacy testing
-                  libraries, trained new developers, and reviewed code.
-                </p>
-              </div>
-            </article>
-            <article class="job-card">
-              <p class="period">IDF</p>
-              <div>
-                <h3>Manual and Automated Testing</h3>
-                <p class="company">Multiple deployment environments</p>
-                <p>
-                  Performed manual and automated tests across multiple
-                  deployment environments with dedicated databases per
-                  environment. Worked closely with product managers on test
-                  specifications for new products and application features in
-                  Agile methodology.
-                </p>
-              </div>
-            </article>
+          <div class="about-copy">
+            <p>
+              My background combines automation development, manual testing,
+              test planning, CI feedback, and product investigation. At Redis I
+              work on product quality across billing, subscriptions, databases,
+              microservices, and service-management flows. Before Redis, I
+              served in the IDF as a QA Engineer in the Shachar Unit under
+              Lotem, where I helped build the unit's first automation testing
+              infrastructure.
+            </p>
+            <div class="mini-grid">
+              <article>Revenue-critical flow coverage</article>
+              <article>Readable failure evidence</article>
+              <article>Strong team communication</article>
+            </div>
           </div>
         </div>
       </section>
+
 
       <section class="section section-lined" id="education">
         <div class="container split">
@@ -391,9 +354,9 @@
     </main>
 
     <footer class="site-footer">
-      <p>Menahem Shwartz - Cloud Automation Engineer</p>
+      <p>Menahem Shwartz - QA Automation Engineer</p>
     </footer>
 
-    <script src="script.js?v=5"></script>
+    <script src="script.js?v=7"></script>
   </body>
 </html>
