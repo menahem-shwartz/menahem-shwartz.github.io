@@ -232,8 +232,8 @@ def build_cv() -> None:
         Paragraph("Nov 2019 - Jul 2022", date_style),
     ]
     idf_bullets = [
-        "Led development of the unit's first end-to-end automation infrastructure "
-        "using Python and Selenium.",
+        "Contributed to the unit's first end-to-end automation infrastructure using "
+        "Python and Selenium.",
         "Supported migration from legacy testing libraries, trained developers, "
         "reviewed code, and performed automated and manual testing across multiple "
         "deployment environments.",
