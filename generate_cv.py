@@ -174,8 +174,8 @@ def build_cv() -> None:
             '<link href="https://www.linkedin.com/in/menahem-shwartz-659342243/" '
             'color="#0F766E">linkedin.com/in/menahem-shwartz</link>'
             " &nbsp;|&nbsp; "
-            '<link href="https://github.com/menahemshwartz" color="#0F766E">'
-            "github.com/menahemshwartz</link>",
+            '<link href="https://github.com/menahem-shwartz" color="#0F766E">'
+            "github.com/menahem-shwartz</link>",
             contact_style,
         ),
         Paragraph("PROFESSIONAL SUMMARY", section_style),
