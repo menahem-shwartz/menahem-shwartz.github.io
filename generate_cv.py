@@ -49,7 +49,7 @@ def page_footer(canvas, document) -> None:
     canvas.drawString(
         document.leftMargin,
         8.5 * mm,
-        "Menahem Shwartz | QA Automation Engineer / SDET",
+        "Menahem Shwartz | QA Automation Engineer",
     )
     canvas.drawRightString(
         A4[0] - document.rightMargin,
@@ -156,14 +156,14 @@ def build_cv() -> None:
         leftMargin=15 * mm,
         topMargin=10 * mm,
         bottomMargin=17 * mm,
-        title="Menahem Shwartz - QA Automation Engineer / SDET",
+        title="Menahem Shwartz - QA Automation Engineer",
         author="Menahem Shwartz",
         subject="Professional CV",
     )
 
     story = [
         Paragraph("MENAHEM SHWARTZ", name_style),
-        Paragraph("QA AUTOMATION ENGINEER / SDET", role_style),
+        Paragraph("QA AUTOMATION ENGINEER", role_style),
         Paragraph(
             '<link href="mailto:menahemshvartz@gmail.com" color="#0F766E">'
             "menahemshvartz@gmail.com</link>"
@@ -180,7 +180,7 @@ def build_cv() -> None:
         ),
         Paragraph("PROFESSIONAL SUMMARY", section_style),
         Paragraph(
-            "QA Automation Engineer / SDET with 6+ years of manual and automated "
+            "QA Automation Engineer with 6+ years of manual and automated "
             "testing experience at Redis Cloud and in the IDF. Specialized in "
             "Playwright and TypeScript automation, REST API and microservices "
             "testing, CI/CD quality gates, framework architecture, flaky-test "
@@ -208,7 +208,7 @@ def build_cv() -> None:
 
     story.append(Paragraph("EMPLOYMENT HISTORY", section_style))
     redis_section = [
-        Paragraph("QA Automation Engineer / SDET - Redis Cloud", job_style),
+        Paragraph("QA Automation Engineer - Redis Cloud", job_style),
         Paragraph("Aug 2022 - Present", date_style),
     ]
     redis_bullets = [
@@ -256,12 +256,12 @@ def build_cv() -> None:
             ),
             Paragraph(
                 "<b>API and cloud:</b> REST API testing, Postman, microservices "
-                "testing, billing systems, SQL",
+                "testing, billing systems, SQL, Kafka, Kubernetes",
                 skills_style,
             ),
             Paragraph(
-                "<b>CI and debugging:</b> GitHub Actions, CI/CD quality gates, "
-                "observability, root-cause analysis, flaky-test stabilization",
+                "<b>CI and debugging:</b> GitHub Actions, Jenkins, GitLab, CI/CD quality gates, "
+                "ReportPortal, observability, root-cause analysis, flaky-test stabilization",
                 skills_style,
             ),
             Paragraph(
