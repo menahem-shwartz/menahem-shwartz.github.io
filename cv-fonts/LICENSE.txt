@@ -1,0 +1,3 @@
+Inter typeface by Rasmus Andersson, licensed under the SIL Open Font License 1.1.
+https://github.com/rsms/inter  —  https://openfontlicense.org
+Converted from OTF to TTF so reportlab can embed it in the CV PDF.
