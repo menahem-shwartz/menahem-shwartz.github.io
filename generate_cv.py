@@ -58,26 +58,24 @@ ACHIEVEMENTS = [
     "<b>Microservice quality gates:</b> drove CI/CD quality gates and critical "
     "E2E coverage for a new billing microservice, creating a reusable reference "
     "model for additional services.",
-    "<b>Ownership:</b> owned automation decisions and quality strategy for "
-    "critical revenue-related product flows in the Billing scrum.",
 ]
 
 JOBS = [
     {
         "title": "QA Automation Engineer",
         "org": "Redis Cloud",
-        "dates": "Aug 2022 – Present",
+        "dates": "Aug 2022 – Aug 2026",
         "bullets": [
-            "Own automation and quality coverage for Redis Cloud billing, "
-            "subscriptions, databases, and service-management journeys.",
-            "Build and maintain Playwright and TypeScript frameworks for E2E and "
-            "REST API coverage with production-like flows, CI evidence, traces, "
-            "and focused reruns.",
-            "Partner with developers and product managers on high-priority "
+            "Owned automation decisions and quality strategy in the Billing "
+            "team, covering revenue-critical billing, subscription, database, "
+            "and service-management flows.",
+            "Built and maintained Playwright and TypeScript frameworks for E2E "
+            "and REST API coverage of production-like user journeys.",
+            "Investigated failures across logs, traces, deploy context, and CI "
+            "artifacts to separate product regressions from infrastructure "
+            "noise.",
+            "Partnered with developers and product managers on high-priority "
             "billing and subscription releases.",
-            "Stabilize flaky tests and investigate failures across logs, traces, "
-            "deploy context, and CI artifacts to separate product regressions "
-            "from infrastructure noise.",
         ],
     },
     {
@@ -98,7 +96,7 @@ JOBS = [
 
 SKILLS = [
     ("Automation", "Playwright, TypeScript, Selenium, Python, test framework "
-                   "architecture, E2E testing, manual testing"),
+                   "architecture, E2E testing"),
     ("API &amp; Cloud", "REST API testing, Postman, microservices testing, "
                         "billing systems, SQL, Kafka, Kubernetes"),
     ("CI &amp; Debugging", "GitHub Actions, Jenkins, GitLab, CI/CD quality "
@@ -112,7 +110,6 @@ SKILLS = [
 EDUCATION = [
     ("Basmach QA Certificate", "Basmach, Mamram, Ramat Gan",
      "May 2020 – Jul 2020"),
-    ("Advanced Automation", "INT College", "Oct 2020"),
 ]
 
 # ----------------------------------------------------------------- design ---
@@ -263,7 +260,7 @@ def build_cv() -> None:
     ]))
     story.append(skills)
 
-    story += section("Education & Courses")
+    story += section("Education")
     for name, place, dates in EDUCATION:
         story.append(two_col(
             Paragraph(f'<font name="{F["semi"]}" color="#111827">{name}</font>'
