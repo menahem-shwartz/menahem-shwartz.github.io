@@ -76,6 +76,8 @@ JOBS = [
             "noise.",
             "Partnered with developers and product managers on high-priority "
             "releases across multiple services.",
+            "Mentored a new team member through onboarding (strong feedback) "
+            "and reviewed automation code for all team members.",
         ],
     },
     {
@@ -85,9 +87,10 @@ JOBS = [
         "bullets": [
             "Contributed to the unit's first end-to-end automation "
             "infrastructure using Python and Selenium.",
-            "Supported migration from legacy testing libraries, trained "
-            "developers, reviewed code, and performed automated and manual "
-            "testing across multiple deployment environments.",
+            "Mentored and onboarded 3+ new team members and reviewed their "
+            "code; supported migration from legacy testing libraries and "
+            "performed automated and manual testing across multiple "
+            "deployment environments.",
             "Worked with product managers on Agile test specifications, bug "
             "management, and test planning for new products and features.",
         ],
@@ -102,7 +105,7 @@ SKILLS = [
     ("CI &amp; Debugging", "GitHub Actions, Jenkins, GitLab, CI/CD quality "
                            "gates, ReportPortal, log &amp; trace analysis, root-cause "
                            "analysis, flaky-test stabilization"),
-    ("Engineering", "Java, Git, code review, pnpm, Jira, Agile, "
+    ("Engineering", "Java, Git, code review, mentoring, pnpm, Jira, Agile, "
                     "AI-assisted testing"),
     ("Languages", "Hebrew, English"),
 ]
