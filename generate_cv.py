@@ -45,7 +45,7 @@ SUMMARY = (
     "experience at Redis Cloud and in the IDF. Specialized in Playwright and "
     "TypeScript automation, REST API and microservices testing, CI/CD quality "
     "gates, framework architecture, flaky-test stabilization, "
-    "observability-driven debugging, and AI-assisted testing workflows."
+    "log and trace-based failure analysis, and AI-assisted testing workflows."
 )
 
 ACHIEVEMENTS = [
@@ -100,9 +100,9 @@ SKILLS = [
     ("API &amp; Cloud", "REST API testing, Postman, microservices testing, "
                         "SQL, Kafka, Kubernetes"),
     ("CI &amp; Debugging", "GitHub Actions, Jenkins, GitLab, CI/CD quality "
-                           "gates, ReportPortal, observability, root-cause "
+                           "gates, ReportPortal, log &amp; trace analysis, root-cause "
                            "analysis, flaky-test stabilization"),
-    ("Engineering", "Java, Git, code review, Nx, pnpm, Jira, Agile, "
+    ("Engineering", "Java, Git, code review, pnpm, Jira, Agile, "
                     "AI-assisted testing"),
     ("Languages", "Hebrew, English"),
 ]
