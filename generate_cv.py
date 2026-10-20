@@ -45,7 +45,8 @@ SUMMARY = (
     "experience at Redis Cloud and in the IDF. Specialized in Playwright and "
     "TypeScript automation, REST API and microservices testing, CI/CD quality "
     "gates, framework architecture, flaky-test stabilization, "
-    "log and trace-based failure analysis, and AI-assisted testing workflows."
+    "log and trace-based failure analysis, and AI-assisted testing workflows. "
+    "Mentored and onboarded 4+ team members and reviewed code across teams."
 )
 
 ACHIEVEMENTS = [
@@ -76,8 +77,8 @@ JOBS = [
             "noise.",
             "Partnered with developers and product managers on high-priority "
             "releases across multiple services.",
-            "Mentored a new team member through onboarding (strong feedback) "
-            "and reviewed automation code for all team members.",
+            "Reviewed automation code for all team members and mentored a new "
+            "team member through onboarding, earning positive feedback.",
         ],
     },
     {
