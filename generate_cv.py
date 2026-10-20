@@ -31,7 +31,7 @@ FONT_DIR = ROOT / "cv-fonts"
 # ---------------------------------------------------------------- content ---
 
 NAME = "Menahem Shwartz"
-TITLE = "QA Automation Engineer"
+TITLE = "QA Automation Engineer  |  Playwright &amp; TypeScript  |  AI-Assisted Testing"
 EMAIL = "menahemshvartz@gmail.com"
 PHONE_DISPLAY, PHONE_LINK = "058-408-0770", "+972584080770"
 LOCATION = "Israel"
@@ -44,19 +44,19 @@ SUMMARY = (
     "QA Automation Engineer with 6+ years of manual and automated testing "
     "experience at Redis Cloud and in the IDF. Specialized in Playwright and "
     "TypeScript automation, REST API and microservices testing, CI/CD quality "
-    "gates, framework architecture, flaky-test stabilization, and "
-    "observability-driven debugging."
+    "gates, framework architecture, flaky-test stabilization, "
+    "observability-driven debugging, and AI-assisted testing workflows."
 )
 
 ACHIEVEMENTS = [
-    "<b>Billing-platform migration:</b> designed the E2E automation strategy, "
+    "<b>Critical platform migration:</b> designed the E2E automation strategy, "
     "closed coverage gaps, and created a three-phase mitigation plan; supported "
-    "a successful launch with no known revenue-impacting regressions at release.",
+    "a successful launch with no critical regressions at release.",
     "<b>CI stability:</b> built a GitHub Actions workflow that automatically "
     "reruns failed critical-path tests, reducing manual intervention and "
     "false-negative CI noise.",
     "<b>Microservice quality gates:</b> drove CI/CD quality gates and critical "
-    "E2E coverage for a new billing microservice, creating a reusable reference "
+    "E2E coverage for a new microservice, creating a reusable reference "
     "model for additional services.",
 ]
 
@@ -66,16 +66,16 @@ JOBS = [
         "org": "Redis Cloud",
         "dates": "Aug 2022 – Aug 2026",
         "bullets": [
-            "Owned automation decisions and quality strategy in the Billing "
-            "team, covering revenue-critical billing, subscription, database, "
-            "and service-management flows.",
+            "Owned automation decisions and quality strategy for Redis Cloud "
+            "product flows, including subscriptions, databases, billing, and "
+            "service management.",
             "Built and maintained Playwright and TypeScript frameworks for E2E "
             "and REST API coverage of production-like user journeys.",
             "Investigated failures across logs, traces, deploy context, and CI "
             "artifacts to separate product regressions from infrastructure "
             "noise.",
             "Partnered with developers and product managers on high-priority "
-            "billing and subscription releases.",
+            "releases across multiple services.",
         ],
     },
     {
@@ -98,12 +98,12 @@ SKILLS = [
     ("Automation", "Playwright, TypeScript, Selenium, Python, test framework "
                    "architecture, E2E testing"),
     ("API &amp; Cloud", "REST API testing, Postman, microservices testing, "
-                        "billing systems, SQL, Kafka, Kubernetes"),
+                        "SQL, Kafka, Kubernetes"),
     ("CI &amp; Debugging", "GitHub Actions, Jenkins, GitLab, CI/CD quality "
                            "gates, ReportPortal, observability, root-cause "
                            "analysis, flaky-test stabilization"),
     ("Engineering", "Java, Git, code review, Nx, pnpm, Jira, Agile, "
-                    "AI-assisted QA"),
+                    "AI-assisted testing"),
     ("Languages", "Hebrew, English"),
 ]
 
@@ -224,7 +224,7 @@ def build_cv() -> None:
         str(OUTPUT_PATH), pagesize=A4,
         leftMargin=MARGIN_X, rightMargin=MARGIN_X,
         topMargin=12 * mm, bottomMargin=10 * mm,
-        title=f"{NAME} – {TITLE}", author=NAME, subject="CV",
+        title=f"{NAME} – QA Automation Engineer", author=NAME, subject="CV",
     )
 
     story = header()
