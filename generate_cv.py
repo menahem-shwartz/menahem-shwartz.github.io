@@ -45,7 +45,7 @@ SUMMARY = (
     "experience at Redis Cloud and in the IDF. Specialized in Playwright and "
     "TypeScript automation, REST API and microservices testing, CI/CD quality "
     "gates, framework architecture, and AI-assisted testing. Mentored and "
-    "onboarded 4+ team members and reviewed code across teams."
+    "onboarded 4+ team members and regularly reviewed teammates' code."
 )
 
 ACHIEVEMENTS = [
@@ -83,7 +83,7 @@ JOBS = [
             "from infrastructure noise.",
             "Worked daily with developers, PMs, and managers on test scope, bug "
             "triage, and release readiness.",
-            "Reviewed the whole team's automation code and mentored a new hire "
+            "Reviewed teammates' automation pull requests and mentored a new hire "
             "through onboarding, earning positive feedback.",
         ],
     },
