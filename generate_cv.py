@@ -73,8 +73,9 @@ JOBS = [
             "Owned automation decisions and quality strategy for Redis Cloud "
             "product flows, including subscriptions, databases, billing, and "
             "service management.",
-            "Built and maintained Playwright and TypeScript frameworks for E2E "
-            "and REST API coverage of production-like user journeys.",
+            "Reviewed PRDs, designed test plans, and wrote UI and REST API "
+            "tests in Playwright and TypeScript; built and maintained the "
+            "automation frameworks behind them.",
             "Investigated failures across logs, traces, deploy context, and CI "
             "artifacts to separate product regressions from infrastructure "
             "noise.",
