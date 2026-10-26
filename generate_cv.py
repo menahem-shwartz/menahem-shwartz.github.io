@@ -112,7 +112,7 @@ SKILLS = [
                            "gates, ReportPortal, log &amp; trace analysis, root-cause "
                            "analysis, flaky-test stabilization"),
     ("Engineering", "Java, Git, code review, mentoring, pnpm, Jira, Agile, "
-                    "AI-assisted testing (Copilot, Claude)"),
+                    "AI-assisted testing"),
     ("Languages", "Hebrew, English"),
 ]
 
