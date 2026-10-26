@@ -79,8 +79,8 @@ JOBS = [
             "Investigated failures using logs, Playwright traces, CI artifacts, "
             "and deploy context to separate product regressions from "
             "infrastructure noise.",
-            "Partnered with developers and product managers on high-priority "
-            "releases across multiple services.",
+            "Worked day-to-day with developers, PMs, and managers on test scope, "
+            "bug triage, and release readiness for high-priority releases.",
             "Reviewed automation code for all team members and mentored a new "
             "team member through onboarding, earning positive feedback.",
         ],
