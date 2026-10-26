@@ -70,9 +70,10 @@ JOBS = [
         "org": "Redis Cloud",
         "dates": "Aug 2022 – Aug 2026",
         "bullets": [
-            "Owned automation and quality strategy in the Billing team, with "
-            "E2E coverage of user journeys across subscriptions, databases, and "
-            "service management.",
+            "Owned automation and quality strategy in the Billing team: 200+ "
+            "tests covering E2E journeys across subscriptions, databases, and "
+            "service management, running in nightly regression and microservice "
+            "CI; owned billing QA for bi-weekly cloud releases.",
             "Reviewed PRDs, designed test plans, and wrote UI and API tests "
             "(Playwright, TypeScript, SQL); built the frameworks behind them and "
             "initiated a Kafka testing framework for the QA group.",
@@ -96,8 +97,8 @@ JOBS = [
             "code; supported migration from legacy testing libraries and "
             "performed automated and manual testing across multiple "
             "deployment environments.",
-            "Worked with product managers on Agile test specifications, bug "
-            "management, and test planning for new products and features.",
+            "Worked with PMs on test specifications, bug management, and test "
+            "planning for new features.",
         ],
     },
 ]
