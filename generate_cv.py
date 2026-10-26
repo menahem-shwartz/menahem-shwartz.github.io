@@ -73,12 +73,12 @@ JOBS = [
             "Owned automation and quality strategy in the Billing team, with "
             "E2E coverage of user journeys across subscriptions, databases, and "
             "service management.",
-            "Reviewed PRDs, designed test plans, and wrote UI and REST API "
-            "tests in Playwright and TypeScript; built and maintained the "
-            "automation frameworks behind them.",
+            "Reviewed PRDs, designed test plans, and wrote UI and API tests "
+            "(Playwright, TypeScript, SQL); built the frameworks behind them and "
+            "initiated a Kafka testing framework for the QA group.",
             "Investigated failures using logs, Playwright traces, CI artifacts, "
-            "and deploy context to separate product regressions from "
-            "infrastructure noise.",
+            "Kubernetes, and deploy context to separate product regressions "
+            "from infrastructure noise.",
             "Worked daily with developers, PMs, and managers on test scope, bug "
             "triage, and release readiness.",
             "Reviewed automation code for all team members and mentored a new "
