@@ -92,14 +92,13 @@ JOBS = [
         "org": "IDF – Shachar Unit, Lotem",
         "dates": "Nov 2019 – Jul 2022",
         "bullets": [
-            "Contributed to the unit's first end-to-end automation "
-            "infrastructure using Python and Selenium.",
-            "Mentored and onboarded 3+ new team members and reviewed their "
-            "code; supported migration from legacy testing libraries and "
-            "performed automated and manual testing across multiple "
-            "deployment environments.",
-            "Worked with PMs on test specifications, bug management, and test "
-            "planning for new features.",
+            "Lead developer of the unit's first end-to-end automation "
+            "infrastructure, built in Python and Selenium.",
+            "Trained and onboarded 3+ new developers on the automation "
+            "framework, including tech leadership and code reviews.",
+            "Ran manual and automated tests across multiple deployment "
+            "environments, and worked with PMs on test specs, test planning, "
+            "and bug management (Jira, Agile).",
         ],
     },
 ]
