@@ -73,7 +73,7 @@ JOBS = [
             "Owned automation and quality strategy in the Billing team: 200+ "
             "tests covering E2E journeys across subscriptions, databases, and "
             "service management, running in nightly regression and microservice "
-            "CI; owned billing QA for bi-weekly cloud releases.",
+            "CI/CD pipelines; owned billing QA for the two-week cloud release cycle.",
             "Reviewed PRDs, designed test plans, and wrote UI and API tests "
             "(Playwright, TypeScript, SQL); built the frameworks behind them and "
             "initiated a Kafka testing framework for the QA group.",
