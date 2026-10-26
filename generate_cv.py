@@ -70,8 +70,8 @@ JOBS = [
         "org": "Redis Cloud",
         "dates": "Aug 2022 – Aug 2026",
         "bullets": [
-            "Owned automation decisions and quality strategy for Redis Cloud "
-            "product flows, including subscriptions, databases, billing, and "
+            "Owned automation and quality strategy in the Billing team, with "
+            "E2E coverage of user journeys across subscriptions, databases, and "
             "service management.",
             "Reviewed PRDs, designed test plans, and wrote UI and REST API "
             "tests in Playwright and TypeScript; built and maintained the "
