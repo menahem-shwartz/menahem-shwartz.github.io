@@ -71,19 +71,20 @@ JOBS = [
         "dates": "Aug 2022 – Aug 2026",
         "bullets": [
             "Owned automation and quality strategy in the Billing team: 200+ "
-            "tests covering E2E journeys across subscriptions, databases, and "
-            "service management, running in nightly regression and microservice "
-            "CI/CD pipelines; owned billing QA for the two-week cloud release cycle.",
+            "E2E tests across subscriptions, databases, and service management, "
+            "running in nightly regression and microservice CI/CD; responsible "
+            "for billing QA in each two-week cloud release.",
             "Reviewed PRDs, designed test plans, and wrote UI and API tests "
-            "(Playwright, TypeScript, SQL); built the frameworks behind them and "
-            "initiated a Kafka testing framework for the QA group.",
+            "(Playwright, TypeScript, SQL); built the automation infrastructure "
+            "(API clients, helpers) and initiated a Kafka testing framework for "
+            "the QA group.",
             "Investigated failures using logs, Playwright traces, CI artifacts, "
             "Kubernetes, and deploy context to separate product regressions "
             "from infrastructure noise.",
             "Worked daily with developers, PMs, and managers on test scope, bug "
             "triage, and release readiness.",
-            "Reviewed automation code for all team members and mentored a new "
-            "team member through onboarding, earning positive feedback.",
+            "Reviewed the whole team's automation code and mentored a new hire "
+            "through onboarding, earning positive feedback.",
         ],
     },
     {
