@@ -35,9 +35,9 @@ TITLE = "QA Automation Engineer  |  Playwright &amp; TypeScript  |  AI-Assisted 
 EMAIL = "menahemshvartz@gmail.com"
 PHONE_DISPLAY, PHONE_LINK = "058-408-0770", "+972584080770"
 LOCATION = "Israel"
+AVAILABILITY = "Available now"
 LINKEDIN = ("linkedin.com/in/menahem-shwartz",
             "https://www.linkedin.com/in/menahem-shwartz-659342243/")
-GITHUB = ("github.com/menahem-shwartz", "https://github.com/menahem-shwartz")
 WEBSITE = ("menahem-shwartz.github.io", "https://menahem-shwartz.github.io")
 
 SUMMARY = (
@@ -59,9 +59,9 @@ ACHIEVEMENTS = [
     "<b>Microservice QA strategy:</b> defined the automation strategy for "
     "continuous delivery of a new microservice, with E2E tests gating every "
     "deploy; reused it for 2+ more services.",
-    "<b>AI-assisted testing:</b> used AI tools across the full QA lifecycle: "
-    "PRD reviews, test-plan design, writing tests, and building automation "
-    "infrastructure.",
+    "<b>AI-assisted testing:</b> used Copilot and Claude across the QA "
+    "workflow, from writing tests to investigating failures and opening bugs, "
+    "cutting test-writing time by about half.",
 ]
 
 JOBS = [
@@ -71,7 +71,7 @@ JOBS = [
         "dates": "Aug 2022 – Aug 2026",
         "bullets": [
             "Owned automation and quality strategy in the Billing team: 200+ "
-            "E2E tests across subscriptions, databases, and service management, "
+            "automated tests across subscriptions, databases, and service management, "
             "running in nightly regression and microservice CI/CD; responsible "
             "for billing QA in each two-week cloud release.",
             "Reviewed PRDs, designed test plans, and wrote UI and API tests "
@@ -112,7 +112,7 @@ SKILLS = [
                            "gates, ReportPortal, log &amp; trace analysis, root-cause "
                            "analysis, flaky-test stabilization"),
     ("Engineering", "Java, Git, code review, mentoring, pnpm, Jira, Agile, "
-                    "AI-assisted testing"),
+                    "AI-assisted testing (Copilot, Claude)"),
     ("Languages", "Hebrew, English"),
 ]
 
@@ -214,8 +214,9 @@ def header() -> list:
         link(EMAIL, f"mailto:{EMAIL}"),
         link(PHONE_DISPLAY, f"tel:{PHONE_LINK}"),
         LOCATION,
+        f'<font name="{F["semi"]}" color="#0F766E">{AVAILABILITY}</font>',
     ])
-    line2 = sep.join([link(*LINKEDIN), link(*GITHUB), link(*WEBSITE)])
+    line2 = sep.join([link(*LINKEDIN), link(*WEBSITE)])
     return [
         Paragraph(NAME, S["name"]),
         Spacer(1, 1 * mm),
