@@ -50,9 +50,9 @@ SUMMARY = (
 )
 
 ACHIEVEMENTS = [
-    "<b>Critical platform migration:</b> designed the E2E automation strategy, "
-    "closed coverage gaps, and created a three-phase mitigation plan; supported "
-    "a successful launch with no critical regressions at release.",
+    "<b>Critical platform migration:</b> led the E2E automation strategy, "
+    "adding 20+ new UI and API tests and a three-phase risk-mitigation plan; "
+    "launched with zero critical regressions.",
     "<b>CI stability:</b> built a GitHub Actions workflow that automatically "
     "reruns failed critical-path tests, reducing manual intervention and "
     "false-negative CI noise.",
