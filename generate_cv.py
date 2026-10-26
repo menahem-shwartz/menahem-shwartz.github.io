@@ -52,10 +52,9 @@ ACHIEVEMENTS = [
     "<b>Critical platform migration:</b> led the E2E automation strategy, "
     "adding 20+ new UI and API tests and a three-phase risk-mitigation plan; "
     "launched with zero critical regressions.",
-    "<b>CI noise reduction:</b> built a GitHub Actions workflow that "
-    "automatically reruns failed tests in the critical-path nightly suite, "
-    "cutting false failures needing manual reruns by 30% so the team could "
-    "focus on real bugs.",
+    "<b>CI noise reduction:</b> built a GitHub Actions auto-rerun workflow "
+    "for the nightly critical-path suite, cutting manual reruns by 30% so the "
+    "team could focus on real bugs.",
     "<b>Microservice quality gates:</b> built CI/CD quality gates and "
     "critical E2E coverage for a new microservice, then reused the model for "
     "2+ more services in the team.",
