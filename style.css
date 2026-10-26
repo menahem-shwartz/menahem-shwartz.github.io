@@ -403,6 +403,10 @@ h3 {
   gap: 18px;
 }
 
+.skill-card-wide {
+  grid-column: 1 / -1;
+}
+
 .skill-card {
   border: 1px solid var(--line);
   border-radius: 8px;

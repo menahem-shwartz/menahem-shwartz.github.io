@@ -44,7 +44,7 @@ SUMMARY = (
     "QA Automation Engineer with 6+ years of manual and automated testing "
     "experience at Redis Cloud and in the IDF. Specialized in Playwright and "
     "TypeScript automation, REST API and microservices testing, CI/CD quality "
-    "gates, framework architecture, and AI-assisted testing. Mentored and "
+    "gates, and AI-assisted testing. Mentored and "
     "onboarded 4+ team members and regularly reviewed teammates' code."
 )
 
@@ -104,8 +104,8 @@ JOBS = [
 ]
 
 SKILLS = [
-    ("Automation", "Playwright, TypeScript, Selenium, Python, test framework "
-                   "architecture, E2E testing"),
+    ("Automation", "Playwright, TypeScript, Selenium, Python, E2E testing, "
+                   "regression testing, test planning"),
     ("API &amp; Cloud", "REST API testing, Postman, microservices testing, "
                         "SQL, Kafka, Kubernetes"),
     ("CI &amp; Debugging", "GitHub Actions, Jenkins, GitLab, CI/CD quality "
