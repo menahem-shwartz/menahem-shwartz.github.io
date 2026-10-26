@@ -76,9 +76,8 @@ JOBS = [
             "Reviewed PRDs, designed test plans, and wrote UI and REST API "
             "tests in Playwright and TypeScript; built and maintained the "
             "automation frameworks behind them.",
-            "Investigated failures across logs, traces, deploy context, and CI "
-            "artifacts to separate product regressions from infrastructure "
-            "noise.",
+            "Investigated test failures using logs, Playwright traces, and test "
+            "reports to separate real product bugs from environment issues.",
             "Partnered with developers and product managers on high-priority "
             "releases across multiple services.",
             "Reviewed automation code for all team members and mentored a new "
