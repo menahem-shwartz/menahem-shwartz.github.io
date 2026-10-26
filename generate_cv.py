@@ -56,9 +56,9 @@ ACHIEVEMENTS = [
     "failed tests in the nightly critical-path suite to separate flaky failures "
     "from real regressions, cutting manual reruns by 30% so the team could "
     "focus on real bugs.",
-    "<b>Microservice quality gates:</b> built CI/CD quality gates and "
-    "critical E2E coverage for a new microservice, then reused the model for "
-    "2+ more services in the team.",
+    "<b>Microservice QA strategy:</b> defined the QA automation strategy for "
+    "continuous delivery of a new microservice, with critical E2E tests "
+    "gating every deploy in CI/CD; reused it for 2+ more services in the team.",
     "<b>AI-assisted testing:</b> used AI tools across the full QA lifecycle: "
     "PRD reviews, test-plan design, writing tests, and building automation "
     "infrastructure.",
