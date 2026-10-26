@@ -57,8 +57,8 @@ ACHIEVEMENTS = [
     "cutting false failures needing manual reruns by 30% so the team could "
     "focus on real bugs.",
     "<b>Microservice quality gates:</b> built CI/CD quality gates and "
-    "critical E2E coverage for a new microservice; the model was adopted by "
-    "2 additional services.",
+    "critical E2E coverage for a new microservice, then reused the model for "
+    "2+ more services in the team.",
     "<b>AI-assisted testing:</b> used AI tools across the full QA lifecycle: "
     "PRD reviews, test-plan design, writing tests, and building automation "
     "infrastructure.",
