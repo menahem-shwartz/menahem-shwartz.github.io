@@ -44,21 +44,24 @@ SUMMARY = (
     "QA Automation Engineer with 6+ years of manual and automated testing "
     "experience at Redis Cloud and in the IDF. Specialized in Playwright and "
     "TypeScript automation, REST API and microservices testing, CI/CD quality "
-    "gates, framework architecture, flaky-test stabilization, "
-    "log and trace-based failure analysis, and AI-assisted testing workflows. "
-    "Mentored and onboarded 4+ team members and reviewed code across teams."
+    "gates, framework architecture, and AI-assisted testing. Mentored and "
+    "onboarded 4+ team members and reviewed code across teams."
 )
 
 ACHIEVEMENTS = [
     "<b>Critical platform migration:</b> led the E2E automation strategy, "
     "adding 20+ new UI and API tests and a three-phase risk-mitigation plan; "
     "launched with zero critical regressions.",
-    "<b>CI stability:</b> built a GitHub Actions workflow that automatically "
-    "reruns failed critical-path tests, reducing manual intervention and "
-    "false-negative CI noise.",
-    "<b>Microservice quality gates:</b> drove CI/CD quality gates and critical "
-    "E2E coverage for a new microservice, creating a reusable reference "
-    "model for additional services.",
+    "<b>CI noise reduction:</b> built a GitHub Actions workflow that "
+    "automatically reruns failed tests in the critical-path nightly suite, "
+    "cutting false failures needing manual reruns by 30% so the team could "
+    "focus on real bugs.",
+    "<b>Microservice quality gates:</b> built CI/CD quality gates and "
+    "critical E2E coverage for a new microservice; the model was adopted by "
+    "2 additional services.",
+    "<b>AI-assisted testing:</b> used AI tools across the full QA lifecycle: "
+    "PRD reviews, test-plan design, writing tests, and building automation "
+    "infrastructure.",
 ]
 
 JOBS = [
