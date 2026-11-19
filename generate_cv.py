@@ -78,7 +78,7 @@ JOBS = [
             "for the QA group.",
             "Root-caused failures from logs, Playwright traces, CI artifacts, "
             "and Kubernetes, aided by LLMs.",
-            "Worked daily with developers, PMs, and managers on test scope, bug "
+            "Worked daily with developers and product managers on test scope, bug "
             "triage, and release readiness.",
             "Reviewed teammates' automation pull requests and mentored a new hire "
             "through onboarding, earning positive feedback.",
@@ -94,7 +94,7 @@ JOBS = [
             "Trained and onboarded 3+ new developers on the automation "
             "framework, including tech leadership and code reviews.",
             "Ran manual and automated tests across multiple deployment "
-            "environments, and worked with PMs on test specs, test planning, "
+            "environments, and worked with product managers on test specs, test planning, "
             "and bug management (Jira, Agile).",
         ],
     },
