@@ -58,9 +58,9 @@ ACHIEVEMENTS = [
     "<b>Microservice QA strategy:</b> defined the automation strategy for "
     "continuous delivery of a new microservice, with E2E tests gating every "
     "deploy; reused it for 2+ more services.",
-    "<b>AI-assisted testing:</b> used AI tools to draft test plans from PRDs "
-    "(then reviewed and refined them) and root-cause flaky tests from "
-    "Playwright traces and CI logs, cutting test-writing time by about half.",
+    "<b>AI-assisted testing:</b> used AI to draft test plans from product "
+    "requirements documents (reviewed and refined before use) and root-cause "
+    "flaky tests from traces and CI logs, halving test-writing time.",
 ]
 
 JOBS = [
@@ -73,7 +73,7 @@ JOBS = [
             "automated tests across subscriptions, databases, and service management, "
             "running in nightly regression and microservice CI/CD; responsible "
             "for billing QA in each two-week cloud release.",
-            "Reviewed PRDs, designed test plans, and wrote UI and API tests "
+            "Reviewed product requirements, designed test plans, and wrote UI and API tests "
             "(Playwright, TypeScript, SQL); initiated a Kafka testing framework "
             "for the QA group.",
             "Root-caused failures from logs, Playwright traces, CI artifacts, "
