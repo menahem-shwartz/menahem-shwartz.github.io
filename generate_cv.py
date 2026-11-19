@@ -54,14 +54,13 @@ ACHIEVEMENTS = [
     "launched with zero critical regressions.",
     "<b>CI failure triage:</b> built a GitHub Actions workflow that re-verifies "
     "failed tests in the nightly critical-path suite to separate flaky failures "
-    "from real regressions, cutting manual reruns by 30% so the team could "
-    "focus on real bugs.",
+    "from real regressions, cutting manual reruns by 30%.",
     "<b>Microservice QA strategy:</b> defined the automation strategy for "
     "continuous delivery of a new microservice, with E2E tests gating every "
     "deploy; reused it for 2+ more services.",
-    "<b>AI-assisted testing:</b> used Copilot and Claude across the QA "
-    "workflow, from writing tests to investigating failures and opening bugs, "
-    "cutting test-writing time by about half.",
+    "<b>AI-assisted testing:</b> used AI tools to draft test plans from PRDs "
+    "(then reviewed and refined them) and root-cause flaky tests from "
+    "Playwright traces and CI logs, cutting test-writing time by about half.",
 ]
 
 JOBS = [
@@ -75,12 +74,10 @@ JOBS = [
             "running in nightly regression and microservice CI/CD; responsible "
             "for billing QA in each two-week cloud release.",
             "Reviewed PRDs, designed test plans, and wrote UI and API tests "
-            "(Playwright, TypeScript, SQL); built the automation infrastructure "
-            "(API clients, helpers) and initiated a Kafka testing framework for "
-            "the QA group.",
-            "Investigated failures using logs, Playwright traces, CI artifacts, "
-            "Kubernetes, and deploy context to separate product regressions "
-            "from infrastructure noise.",
+            "(Playwright, TypeScript, SQL); initiated a Kafka testing framework "
+            "for the QA group.",
+            "Root-caused failures from logs, Playwright traces, CI artifacts, "
+            "and Kubernetes, aided by LLMs.",
             "Worked daily with developers, PMs, and managers on test scope, bug "
             "triage, and release readiness.",
             "Reviewed teammates' automation pull requests and mentored a new hire "
@@ -111,8 +108,8 @@ SKILLS = [
     ("CI &amp; Debugging", "GitHub Actions, Jenkins, GitLab, CI/CD quality "
                            "gates, ReportPortal, log &amp; trace analysis, root-cause "
                            "analysis, flaky-test stabilization"),
-    ("Engineering", "Java, Git, code review, mentoring, pnpm, Jira, Agile, "
-                    "AI-assisted testing"),
+    ("Engineering", "Java, Git, code review, mentoring, pnpm, Jira, Agile"),
+    ("AI Tools", "Claude, GitHub Copilot, Augment Code, OpenAI Codex"),
     ("Languages", "Hebrew, English"),
 ]
 
